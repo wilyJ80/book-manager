@@ -9,6 +9,6 @@ services:
     tty: true
     stdin_open: true
     working_dir: /app
-    command: /bin/bash
+    command: "/bin/sh -c 'echo \"Container IP Address: $(hostname -i)\" && /bin/bash'"
 
 # To run it: try `sudo docker compose run --rm lapis`
