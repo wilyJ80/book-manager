@@ -1,8 +1,10 @@
 local lapis = require("lapis")
+
 local app = lapis.Application()
+app:enable("etlua")
 
 app:get("/", function()
-  return "Welcome to Lapis " .. require("lapis.version")
+	return { render = "index" }
 end)
 
 return app
