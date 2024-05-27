@@ -1,5 +1,6 @@
-# book-manager
-Remaining book page manager with Lapis
+- Run it with Docker compose:
+
+`sudo docker compose run --rm lapis`
 
 - [ ] List books
 - [ ] Create books
