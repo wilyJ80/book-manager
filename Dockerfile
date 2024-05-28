@@ -45,6 +45,7 @@ RUN set -xe && \
             gcc \
             openssl \
             pcre \
+            sqlite-dev \
         && \
         update-ca-certificates && \
         # Install OpenResty
@@ -78,6 +79,7 @@ COPY docker-luarocks-install /usr/local/bin
 RUN set -xe && \
         docker-luarocks-install lapis ${LAPIS_VERSION} && \
         docker-luarocks-install moonscript && \
+        docker-luarocks-install lsqlite3 && \
         # Remove build deps
         apk del .build-deps && \
         # Test
