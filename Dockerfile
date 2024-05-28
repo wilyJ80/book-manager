@@ -83,4 +83,6 @@ RUN set -xe && \
         # Test
         lapis -h
 
+WORKDIR /app
+
 CMD ["lapis", "-h"]
