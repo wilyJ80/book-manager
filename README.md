@@ -4,7 +4,7 @@
 
 `sudo docker build -t book-manager .`
 
-`sudo docker run -it --rm -p 8080:8080 -v .:/app book-manager /bin/sh`
+`sudo docker run -it --rm -p 8080:8080 -v ./app book-manager`
 
 `lapis serve`
 

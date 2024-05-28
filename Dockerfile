@@ -87,4 +87,4 @@ RUN set -xe && \
 
 WORKDIR /app
 
-CMD ["lapis", "-h"]
+CMD ["sh", "-c", "hostname -i && /bin/sh"]
