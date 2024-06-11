@@ -1,0 +1,22 @@
+{
+  "name": "book-manager",
+  "version": "1.0.0",
+  "description": "Web app for readers to manage their remaining book pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilyJ80/book-manager.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Victor Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilyJ80/book-manager/issues"
+  },
+  "homepage": "https://github.com/wilyJ80/book-manager#readme"
+}
